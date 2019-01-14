@@ -1,5 +1,7 @@
 # Submit Gaussian16 jobs for Yale's Chem 426/526
 
+This will install `gausub`, which is an easy submitter script for Gaussian jobs.
+
 ## Install
 
 In your home directory (if you aren't sure, just type `cd`), type 
