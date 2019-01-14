@@ -9,8 +9,7 @@ In your home directory (if you aren't sure, just type `cd`), type
 ```
 git clone https://github.com/jjgoings/YaleCompChem.git
 cd YaleCompChem
-python setup.py install
-cd
+python setup.py install --user
 ``` 
 
 This should install the submitter `gausub`.
