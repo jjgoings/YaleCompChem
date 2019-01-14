@@ -1,6 +1,6 @@
 # Submit Gaussian16 jobs for Yale's Chem 426/526
 
-This will install `gausub`, which is an easy submitter script for Gaussian jobs.
+This will install `gausub`, which is an easy submitter for Gaussian jobs on Grace.
 
 ## Install
 
