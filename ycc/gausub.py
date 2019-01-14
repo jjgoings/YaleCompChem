@@ -62,7 +62,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Submit Gaussian 16 job on Grace.')
     parser.add_argument("infile", help="Gaussian 16 input file")
     parser.add_argument("-nt", "--nthreads",metavar='N', help="CPUs-per-node",type=int,default=1)
-    parser.add_argument("-p","--partition",metavar='P',help="partition",default="day,week")
+    parser.add_argument("-p","--partition",metavar='P',help="partition",default="chem426")
     parser.add_argument("-t","--time",metavar='T',help="time (min)",type=int,default=15)
     args = parser.parse_args()
 
