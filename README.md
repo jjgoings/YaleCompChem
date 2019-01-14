@@ -17,7 +17,9 @@ This should install the submitter `gausub`.
 
 Given a Gaussian job (we'll call it `myjob.com`):
 
-`gausub myjob.com`
+```
+gausub myjob.com
+```
 
 This will prepare a submission script for you and send it to the queue to run.
 
