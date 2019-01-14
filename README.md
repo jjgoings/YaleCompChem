@@ -16,15 +16,23 @@ This should install the submitter `gausub`.
 
 ## Usage
 
-Given a Gaussian job (we'll call it `myjob.com`):
+Say we have a G16 job: `water.com`, which is a water molecule (you can find this in `examples/water.com`)
+
+To submit it, just
 
 ```
-gausub myjob.com
+gausub water.com
 ```
 
-This will prepare a submission script for you and send it to the queue to run.
+This will prepare a submission script for you and send it to the queue to run. You can check on it by typing 
 
-If you want to inspect the submission script, it will have the same name as your input, but with a `.sh` extension (e.g. `myjob.sh`)
+```
+squeue -u <Your NetID>
+```
+
+Once complete, the output will be written to `water.log`.
+
+If you want to inspect the submission script, it will have the same name as your input, but with a `.sh` extension (e.g. `water.sh`)
 
 ## Options and help
 
